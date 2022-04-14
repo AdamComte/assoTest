@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    margin-left: 70%;
+    color: blue;
+    width: 80%;
+}
+section{
+    background-color: darkgrey;
+    width: 80%;
+}
+section > a {
+    font-size: 30px;
+}
+article{
+    padding: 20px;
+background-color: blue;
+}
